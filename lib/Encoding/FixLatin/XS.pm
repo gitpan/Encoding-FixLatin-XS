@@ -1,4 +1,7 @@
 package Encoding::FixLatin::XS;
+{
+  $Encoding::FixLatin::XS::VERSION = '1.00';
+}
 
 use 5.010000;
 use strict;
@@ -6,10 +9,8 @@ use warnings;
 
 our @ISA = qw();
 
-our $VERSION = '0.90';
-
 require XSLoader;
-XSLoader::load('Encoding::FixLatin::XS', $VERSION);
+XSLoader::load('Encoding::FixLatin::XS', $Encoding::FixLatin::XS::VERSION);
 
 # Preloaded methods go here.
 
@@ -22,7 +23,7 @@ Encoding::FixLatin::XS - XS implementation layer for Encoding::FixLatin
 
 =head1 SYNOPSIS
 
-  use Encoding::FixLatin  qw(fix_latin);
+  use Encoding::FixLatin  qw(fix_latin);    # will load XS module if available
 
   my $utf8_string = fix_latin($mixed_encoding_string);
 

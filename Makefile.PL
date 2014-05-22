@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Encoding::FixLatin" => "1.03"
   },
-  "VERSION" => "0.90",
+  "VERSION" => "1.00",
   "test" => {
     "TESTS" => "t/*.t"
   }

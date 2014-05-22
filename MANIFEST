@@ -5,6 +5,7 @@ META.json
 META.yml
 Makefile.PL
 README
+README.md
 XS.xs
 dist.ini
 lib/Encoding/FixLatin/XS.pm

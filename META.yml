@@ -18,4 +18,4 @@ requires:
   perl: 5.014
 resources:
   repository: git://github.com/grantm/encoding-fixlatin-xs.git
-version: 0.90
+version: 1.00
