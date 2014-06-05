@@ -1,6 +1,6 @@
 package Encoding::FixLatin::XS;
 {
-  $Encoding::FixLatin::XS::VERSION = '1.00';
+  $Encoding::FixLatin::XS::VERSION = '1.01';
 }
 
 use 5.010000;
